@@ -21,7 +21,7 @@ if [ -f civic_op.make ]; then
     # Run civic_op.make only.
     echo "Building Civic components..."
     rm -Rf modules/ themes/ libraries/
-    drush -y make --working-copy --no-core --contrib-destination=.. civic_op.make
+    drush -y make --working-copy --no-core --contrib-destination=. civic_op.make
 
   elif [ $SELECTION = "2" ]; then
 

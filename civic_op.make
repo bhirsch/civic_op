@@ -16,13 +16,13 @@ api = 2
 
 ; Contrib projects
 ; ----------------
-projects[admin][subdir] = "civic/contrib"
+projects[admin][subdir] = "contrib"
 ; projects[admin][version] = 2.0
 
 ; Civic 
 ; ------
 projects[civic_features][type] = "module"
-projects[civic_features][subdir] = "civic"
+projects[civic_features][subdir] = ""
 projects[civic_features][download][type] = "git"
 projects[civic_features][download][url] = "git://github.com/bhirsch/civic_features.git"
 projects[civic_features][download][branch] = "7.x-1.x"
@@ -35,7 +35,7 @@ projects[civic_features][download][branch] = "7.x-1.x"
 ; projects[faccess][download][tag] = "7.x-1.0"
 
 projects[fcontrolpanel][type] = "module"
-projects[fcontrolpanel][subdir] = "civic/custom"
+projects[fcontrolpanel][subdir] = "custom"
 projects[fcontrolpanel][download][type] = "git"
 projects[fcontrolpanel][download][url] = "git://github.com/bhirsch/fcontrolpanel.git"
 projects[fcontrolpanel][download][branch] = "7.x-1.x"
