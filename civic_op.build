@@ -16,14 +16,21 @@ api = 2
 
 ; Core project 
 ; ------------
-projects[] = drupal
+; projects[] = drupal
+projects[drupal][type] = "core"
+projects[drupal][download][type] = "git"
+projects[drupal][download][url] = "https://bhirsch@github.com/starswithstripes/openpublic.git"
+projects[drupal][download][tag] = "7.x-1.0-beta1-build200-drupal"
 
 projects[openpublic][type] = "profile"
 projects[openpublic][download][type] = "git"
 projects[openpublic][download][url] = "https://bhirsch@github.com/starswithstripes/openpublic.git"
-projects[openpublic][download][tag] = "7.x-1.0-beta1-build200"
+projects[openpublic][download][tag] = "7.x-1.0-beta1-build200-profile"
 
 projects[openpublic][patch][] = "http://bh.starswithstripes.com/patches/openpublic.profile.patch"
+
+; @TODO 
+; these ship with open public too
 
 ; ; Contrib projects
 ; ; ----------------
